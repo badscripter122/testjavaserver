@@ -5,7 +5,7 @@ import java.net.InetAddress;
 import java.net.SocketException;
 
 public class server {
-    public static void main() throws IOException {
+    public static void main(String[] args) throws IOException {
         DatagramSocket ds = new DatagramSocket(1234);
         byte[] receive = new byte[65535];
 
